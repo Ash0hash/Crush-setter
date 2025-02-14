@@ -1,0 +1,68 @@
+html,body{
+    height:100%;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+}
+
+.bar-with-heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    width: 100%;
+    height: 50px;
+    background-color: hotpink;
+    border-radius:5px;
+    position: relative;
+    padding: 2px;
+}
+
+
+.heart{
+    font-size: 45px;
+    color: red;
+}
+
+h1,h3{
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p{
+    font-family: cursive;
+    font-size: 65px;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%
+}
+.container{
+    text-align: center;
+}
+
+/*.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}*/
+
+button{
+    padding: 40px 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Arial;
+    cursor:pointer;
+    font-weight: bold;
+    
+}
+
+
