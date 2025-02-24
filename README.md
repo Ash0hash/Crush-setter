@@ -1,2 +1,1 @@
-# yes-no-page
-A simple web page with yes and no button for donkey or not
+A simple page to impress/annoy your favourite
